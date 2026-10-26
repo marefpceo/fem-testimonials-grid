@@ -1,40 +1,70 @@
 /* Stores global colors, fonts, and spacing tokens */
 
-/* @font-face {
-  font-family: '';
+@font-face {
+  font-family: 'Barlow Semi Condensed';
   src:
-    local(''), 
-    url('');
+    local('Barlow Semi Condensed'), 
+    url('../assets/fonts/BarlowSemiCondensed/BarlowSemiCondensed-Medium.ttf');
 
-  font-weight: ;
-  font-style: ;
-  font-display: ;
-} */
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src:
+    local('Barlow Semi Condensed'), 
+    url('../assets/fonts/BarlowSemiCondensed/BarlowSemiCondensed-SemiBold.ttf');
+
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
-/* Colors - hsl recommended if possible */
+/* Colors */
+/* Primary */
+--purple-50: hsl(260, 100%, 95%);
+--purple-300: hsl(264, 82%, 80%);
+--purple-500: hsl(263, 55%, 52%);
 
+/* Neutral */
+--custom-white: hsl(0, 0%, 100%);
+--custom-grey-100: hsl(214, 17%, 92%);
+--custom-grey-200: hsl(0, 0%, 81%);
+--custom-grey-400: hsl(224, 10%, 45%);
+--custom-grey-500: hsl(217, 19%, 35%);
+--custom-dark-blue: hsl(219, 29%, 14%);
+--custom-black: hsl(0, 0%, 7%);
 
 /* Fonts */
-
+--font-sans: 'Barlow Semi Condensed', sans-serif;
 
 /* Font Size */
-
+--fs-sm: 0.6875rem;         /*  11px  */
+--fs-base: 0.8125rem;       /*  13px  */
+--fs-lg: 1.25rem;           /*  20px  */
 
 /* Font weight */
-
+--fw-medium: 500;
+--fw-semiBold: 600;
 
 /* Line height */
-
-
-/* Letter spacing */
-
+--line-1: 1;                /* 110% */
+--line-2: 1.2;              /* 120% */
+--line-4: 1.4;              /* 140% */
 
 /* Spacing */
-
+--spacing-050: 0.25rem;     /* 4px */
+--spacing-100: 0.5rem;      /* 8px */
+--spacing-200: 1rem;        /* 16px */
+--spacing-300: 1.5rem;      /* 24px */
+--spacing-400: 2rem;        /* 32px */
+--spacing-500: 2.5rem;      /* 40px */
 
 /* Radius */
-
+--radius-8: 0.5rem;         /* 8px  */
 
 /* Theme variables */
 
