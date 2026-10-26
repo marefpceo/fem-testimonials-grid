@@ -25,9 +25,9 @@
 :root {
 /* Colors */
 /* Primary */
---purple-50: hsl(260, 100%, 95%);
---purple-300: hsl(264, 82%, 80%);
---purple-500: hsl(263, 55%, 52%);
+--custom-purple-50: hsl(260, 100%, 95%);
+--custom-purple-300: hsl(264, 82%, 80%);
+--custom-purple-500: hsl(263, 55%, 52%);
 
 /* Neutral */
 --custom-white: hsl(0, 0%, 100%);

@@ -7,3 +7,23 @@
   height: 1px;
   overflow: hidden;
 }
+
+.purple-card {
+  background-color: var(--custom-purple-500);
+  color: var(--font-light);
+}
+
+.grey-card {
+  background-color: var(--custom-grey-400);
+  color: var(--font-light);
+}
+
+.white-card {
+  background-color: var(--custom-white);
+  color: var(--font-dark);
+}
+
+.dark-blue-card {
+  background-color: var(--custom-dark-blue);
+  color: var(--font-light);
+}
