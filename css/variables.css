@@ -31,6 +31,7 @@
 
 /* Neutral */
 --custom-white: hsl(0, 0%, 100%);
+--custom-off-white: hsl(300, 5%, 96%);
 --custom-grey-100: hsl(214, 17%, 92%);
 --custom-grey-200: hsl(0, 0%, 81%);
 --custom-grey-400: hsl(224, 10%, 45%);
@@ -67,6 +68,9 @@
 --radius-8: 0.5rem;         /* 8px  */
 
 /* Theme variables */
+--body-bg: var(--custom-off-white);
 
+--font-light: var(--custom-white);
+--font-dark: var(--custom-grey-500);
 }
 

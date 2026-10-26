@@ -1,1 +1,16 @@
+body {
+  background-color: var(--body-bg);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+}
 
+h2 {
+  font-size: var(--fs-base);
+  line-height: var(--line-1);
+  font-weight: var(--fw-medium);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
