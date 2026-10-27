@@ -8,6 +8,7 @@
   overflow: hidden;
 }
 
+/* Card background colors */
 .purple-card {
   background-color: var(--custom-purple-500);
   color: var(--font-light);
@@ -34,4 +35,25 @@
 
 .avatar-border {
   border: 0.125rem solid var(--custom-purple-300);
+}
+
+/* Card identity classes */
+.card-1 {
+  grid-area: card-1;
+}
+
+.card-2 {
+  grid-area: card-2;
+}
+
+.card-3 {
+  grid-area: card-3;
+}
+
+.card-4 {
+  grid-area: card-4;
+}
+
+.card-5 {
+  grid-area: card-5;
 }
