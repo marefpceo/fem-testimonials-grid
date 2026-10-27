@@ -37,7 +37,6 @@
 --custom-grey-400: hsl(224, 10%, 45%);
 --custom-grey-500: hsl(217, 19%, 35%);
 --custom-dark-blue: hsl(219, 29%, 14%);
---custom-black: hsl(0, 0%, 7%);
 
 /* Fonts */
 --font-sans: 'Barlow Semi Condensed', sans-serif;
@@ -72,4 +71,6 @@
 
 --font-light: var(--custom-white);
 --font-dark: var(--custom-grey-500);
+
+--shadow-color: hsl(217, 19%, 35%, 24.74%);
 }
