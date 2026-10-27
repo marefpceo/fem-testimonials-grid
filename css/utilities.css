@@ -12,6 +12,16 @@
 .purple-card {
   background-color: var(--custom-purple-500);
   color: var(--font-light);
+
+  @media (min-width: 48rem) {
+    background-image: url('../assets/images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 24.8125rem top;
+  }
+
+  @media (min-width: 90rem) {
+    background-position-x: 23.5rem;
+  }
 }
 
 .grey-card {
@@ -30,6 +40,8 @@
 }
 
 .avatar {
+  width: 1.75rem;
+  height: 1.75rem;
   border-radius: 100%;
 }
 
