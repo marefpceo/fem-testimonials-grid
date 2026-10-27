@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  justify-content: center;
+  margin: 2.375rem auto;
+}
+
+.card-grid {
+  display: grid;
+  gap: var(--spacing-400);
+}
