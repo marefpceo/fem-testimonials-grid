@@ -27,3 +27,11 @@
   background-color: var(--custom-dark-blue);
   color: var(--font-light);
 }
+
+.avatar {
+  border-radius: 100%;
+}
+
+.avatar-border {
+  border: 0.125rem solid var(--custom-purple-300);
+}
