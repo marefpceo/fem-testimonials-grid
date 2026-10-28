@@ -5,7 +5,7 @@
   padding: var(--spacing-400);
   width: min(100%, 19.0625rem);
   border-radius: var(--radius-8);
-  box-shadow: 50px 60px 50px -25px var(--shadow-color);
+  box-shadow: 3.125rem 3.75rem 2.9375rem -2.1875rem var(--shadow-color);
 
   & .card-body {
     font-size: var(--fs-lg);
@@ -35,4 +35,3 @@
     line-height: var(--line-1);
   }
 }
-
