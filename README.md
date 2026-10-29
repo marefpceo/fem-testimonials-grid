@@ -46,9 +46,9 @@ Users should be able to:
 ### What I learned
 This project I continued learning responsive layout techniques and focus more on semantics and accessibility. Using a combination of Flexbox and CSS Grid, it helped me reduce code while controlling the layout to achieve the desired look. 
 
-Flexbox was used on the ```.card-grid``` to control the flow for the mobile view. For the tablet and desktop views, the display was changed to CSS Grid. Using CSS Grid for tablet and desktop allows for a smooth transition between views, and with the help of ```grid-template-area```, arranging the card order was effortless.
+Flexbox was used on the ```.card-grid``` to control the flow for the mobile view. For the tablet and desktop views, the display was changed to CSS Grid. Using CSS Grid for tablet and desktop allows for a smooth transition between views, and with the help of ```grid-template-areas```, arranging the card order was effortless.
 
-Below is how ```grid-template-area``` template was used to arrange the cards based on the breakpoints for tablet and desktop, respectively:
+Below is how ```grid-template-areas``` template was used to arrange the cards based on the breakpoints for tablet and desktop, respectively:
 
 ```css
 @media (min-width: 48rem) {
@@ -91,7 +91,7 @@ Semantics and accessibility was not at the forefront of this lesson, but it is s
 The ```.sr-only``` class positions the element far left of the center view. This makes sure that it does not come into view, but still meets SEO and accessibility needs. 
 
 ### Continued development
-I will continue to build on the foundational fundamentals of responsive design and accessibility. I will do so by continuing to code and creating ways to incorporate checks into my overall workflow. 
+I will continue to build on the foundational fundamentals of responsive design and accessibility. I will do so by continuing to code and creating ways to incorporate checks into my overall workflow. One of the checks that I plan on incorporating is the Accessibility Developer Guide (ADG). The ADG website seems to be a great resource on ways to handle and check website accessibility. The website includes suggestions on how to setup your development environment to test accessibility. 
 
 ### Useful resources
 
